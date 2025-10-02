@@ -1,1 +1,2 @@
 # Library-Fine-algo
+his function calculates the library fine based on how late a book is returned: if it’s on or before the due date, the fine is 0; if it’s late within the same month, it’s 15 per day, if late in the same year but a different month, it’s 500 per month, and if returned in a later year, the fine is a fixed 10,000. Essentially, it checks the return date against the due date in order of year → month → day to determine which fine rule applies.
